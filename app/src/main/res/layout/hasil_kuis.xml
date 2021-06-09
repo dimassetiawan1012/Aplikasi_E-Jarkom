@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hasil"
+        android:textStyle="bold"
+        android:text="Hasil Jawaban Kamu"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nilai"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="65sp"
+        android:text="100"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EB8F44"
+        android:onClick="ulangi"
+        android:text="Ulangi Kuis"
+        app:cornerRadius="50px" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EB8F44"
+        android:onClick="backtokuis"
+        android:text="Kembali ke Kuis"
+        app:cornerRadius="50px" />
+
+</LinearLayout>
