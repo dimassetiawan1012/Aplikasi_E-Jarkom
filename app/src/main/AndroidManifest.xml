@@ -4,12 +4,21 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logoapp"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logoapp"
         android:supportsRtl="true"
         android:theme="@style/Theme.AplikasiEJarkom_Activity">
-        <activity android:name=".MateriActivity"></activity>
+        <activity android:name=".pdfmateri4"></activity>
+        <activity android:name=".pdfmateri3" />
+        <activity android:name=".pdfmateri2" />
+        <activity android:name=".pdfmateri1" />
+        <activity android:name=".pdfkabelrj45" />
+        <activity android:name=".pdfrouter" />
+        <activity android:name=".pdflantester" />
+        <activity android:name=".pdftangcrimping" />
+        <activity android:name=".MateriActivity" />
+        <activity android:name=".PengenalanActivity" />
         <activity android:name=".SoalActivity" />
         <activity android:name=".HasilKuis" />
         <activity android:name=".KuisActivity" />

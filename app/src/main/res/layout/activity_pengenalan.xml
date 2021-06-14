@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PengenalanActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="347dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pengenalan" />
+
+    <Button
+        android:id="@+id/btntangcrimping"
+        android:layout_width="341dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#FF9999"
+        android:text="Tang Crimmping"
+        app:cornerRadius="50px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/btnlantester"
+        android:layout_width="341dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="136dp"
+        android:backgroundTint="#6699FF"
+        android:text="lan tester"
+        app:cornerRadius="50px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/btnrouter"
+        android:layout_width="341dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="212dp"
+        android:backgroundTint="#7E58A3"
+        android:text="router"
+        app:cornerRadius="50px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/btnkabelrj45"
+        android:layout_width="341dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="288dp"
+        android:backgroundTint="#FF3499"
+        android:text="kabel rj-45"
+        app:cornerRadius="50px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

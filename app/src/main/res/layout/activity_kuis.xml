@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="386dp"
-        android:layout_height="198dp"
+        android:layout_width="342dp"
+        android:layout_height="194dp"
         android:layout_marginTop="45dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -17,9 +17,9 @@
         app:srcCompat="@drawable/kuis" />
 
     <Button
-        android:id="@+id/btn_kuis1"
-        android:layout_width="390dp"
-        android:layout_height="65dp"
+        android:id="@+id/btn_satu"
+        android:layout_width="344dp"
+        android:layout_height="69dp"
         android:layout_marginTop="40dp"
         android:backgroundTint="#6A74BA"
         android:text="Level 1"
@@ -31,8 +31,8 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="390dp"
-        android:layout_height="65dp"
+        android:layout_width="344dp"
+        android:layout_height="69dp"
         android:layout_marginTop="120dp"
         android:backgroundTint="#B54AA3"
         android:text="Level 2"
@@ -44,8 +44,8 @@
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="390dp"
-        android:layout_height="65dp"
+        android:layout_width="344dp"
+        android:layout_height="69dp"
         android:layout_marginTop="200dp"
         android:backgroundTint="#56ADA8"
         android:text="Level 3"
@@ -57,8 +57,8 @@
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="390dp"
-        android:layout_height="65dp"
+        android:layout_width="344dp"
+        android:layout_height="69dp"
         android:layout_marginTop="280dp"
         android:backgroundTint="#EA8941"
         android:text="Level 4"

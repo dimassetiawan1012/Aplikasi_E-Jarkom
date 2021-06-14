@@ -13,7 +13,7 @@ class KuisActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_kuis)
-        btnIntent = findViewById(R.id.btn_kuis1)
+        btnIntent = findViewById(R.id.btn_satu)
 
         btnIntent.setOnClickListener(this)
 
@@ -21,7 +21,7 @@ class KuisActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View) {
         when(v.id){
-            R.id.btn_kuis1 ->{
+            R.id.btn_satu ->{
                 val  Soal = Intent(this@KuisActivity,SoalActivity::class.java)
                 startActivity(Soal)
             }
